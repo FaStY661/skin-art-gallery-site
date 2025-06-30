@@ -4,6 +4,11 @@ import { Card } from "@/components/ui/card";
 import { MapPin, Phone, Send } from "lucide-react";
 
 const ContactSection = () => {
+  const handleBooking = () => {
+    // Открываем Telegram или показываем информацию о записи
+    window.open('https://t.me/ChayaTattoo', '_blank');
+  };
+
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 to-black">
       <div className="max-w-7xl mx-auto px-6">
@@ -36,7 +41,7 @@ const ContactSection = () => {
                 <Send className="w-6 h-6 text-red-500 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="text-white font-semibold mb-1">Telegram</h4>
-                  <p className="text-gray-300">@InkwellStudio</p>
+                  <p className="text-gray-300">@ChayaTattoo</p>
                 </div>
               </div>
             </div>
@@ -58,7 +63,10 @@ const ContactSection = () => {
                 <span className="text-white">12:00 - 20:00</span>
               </div>
             </div>
-            <Button className="w-full bg-red-600 hover:bg-red-700 text-white py-3 text-lg font-semibold">
+            <Button 
+              onClick={handleBooking}
+              className="w-full bg-red-600 hover:bg-red-700 text-white py-3 text-lg font-semibold"
+            >
               Записаться на консультацию
             </Button>
           </Card>

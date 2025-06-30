@@ -2,6 +2,13 @@
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-red-950">
       <div className="absolute inset-0 bg-black/40"></div>
@@ -17,6 +24,7 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <Button 
             size="lg" 
+            onClick={() => scrollToSection('contact')}
             className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
           >
             Записаться на сеанс
@@ -24,6 +32,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             variant="outline" 
+            onClick={() => scrollToSection('about')}
             className="border-red-600 text-red-500 hover:bg-red-600 hover:text-white px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
           >
             Посмотреть работы
