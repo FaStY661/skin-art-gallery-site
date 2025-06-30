@@ -26,7 +26,6 @@ const PortfolioSection = () => {
     {
       id: 6,
       <img src="img/photo_2025-06-27_19-28-33.jpg" alt="Фото">
-      alt: "Тату работа 6",
     }
   ];
 
