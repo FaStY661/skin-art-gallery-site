@@ -25,7 +25,7 @@ const FeaturesSection = () => {
             <p className="text-white">Стерильная среда и высочайшие стандарты гигиены</p>
           </Card>
            <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all flex flex-col items-center justify-center">
-            <Shield className="w-12 h-12 text-white mx-auto mb-4" />
+            <Human className="w-12 h-12 text-white mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-white mb-3">Клиентоориентированность</h3>
             <p className="text-white">Индивидуальный подход к выбору татуировки</p>
           </Card>
