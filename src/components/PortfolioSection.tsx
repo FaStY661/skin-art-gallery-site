@@ -5,39 +5,33 @@ const PortfolioSection = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=500&fit=crop",
+      src: "photo_2025-04-22_20-20-22.jpg",
       alt: "Тату работа 1",
-      category: "Реализм"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=500&fit=crop",
+      src: "photo_2025-06-28_16-42-52.jpg",
       alt: "Тату работа 2", 
-      category: "Графика"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=500&fit=crop",
+      src: "photo_2025-06-27_19-28-33.jpg",
       alt: "Тату работа 3",
-      category: "Минимализм"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&h=500&fit=crop",
+      src: "photo_2025-06-13_18-01-42.jpg",
       alt: "Тату работа 4",
-      category: "Черно-белое"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&h=500&fit=crop",
+      src: "photo_2025-06-12_22-59-20.jpg",
       alt: "Тату работа 5",
-      category: "Цветное"
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=500&h=500&fit=crop",
+      src: "photo_2025-05-08_19-21-20.jpg",
       alt: "Тату работа 6",
-      category: "Абстрактное"
     }
   ];
 
