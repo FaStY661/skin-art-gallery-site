@@ -12,17 +12,17 @@ const AboutSection = () => {
           <div className="text-center lg:text-left">
             <img 
               src=""
-              alt="Маркус - Тату мастер"
+              alt="Полина - Тату мастер"
               className="w-80 h-80 rounded-full mx-auto lg:mx-0 mb-8 object-cover border-4 border-black"
             />
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-black mb-4">Маркус</h3>
+            <h3 className="text-3xl font-bold text-black mb-4">Полина</h3>
             <div className="flex flex-wrap gap-2 mb-6">
               <Badge className="bg-black text-white">Ведущий мастер</Badge>
             </div>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Маркус - профессиональный мастер татуировки. Специализируется на традиционном американском стиле и нео-традиционных работах.
+              Полина - начинающий мастер татуировки. Специализируется на стилях популярных работ.
             </p>
             <div className="space-y-3 text-gray-700">
             </div>
