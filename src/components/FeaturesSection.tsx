@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Star, Clock, Shield, Award } from "lucide-react";
+import { Star, Clock, Shield, Award, User } from "lucide-react";
 
 const FeaturesSection = () => {
   return (
@@ -24,10 +24,10 @@ const FeaturesSection = () => {
             <h3 className="text-xl font-semibold text-white mb-3">Безопасность прежде всего</h3>
             <p className="text-white">Стерильная среда и высочайшие стандарты гигиены</p>
           </Card>
-           <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all flex flex-col items-center justify-center">
-            <Shield className="w-12 h-12 text-white mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">Клиентоориентированность</h3>
-            <p className="text-white">Индивидуальный подход к выбору татуировки</p>
+          <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all flex flex-col items-center justify-center">
+            <User className="w-12 h-12 text-white mx-auto mb-4" />
+            <h3 className="text-xl font-semibold text-white mb-3">Индивидуальный подход</h3>
+            <p className="text-white">Персональные консультации и уникальные дизайны для каждого клиента</p>
           </Card>
         </div>
       </div>
