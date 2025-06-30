@@ -47,15 +47,8 @@ const ContactSection = () => {
           <div className="flex flex-col">
             <Card className="bg-black border-white p-8 h-full">
               <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
-              <div className="flex-grow mb-8">
-                <iframe 
-                  src="https://yandex.ru/maps/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;source=constructorStatic"
-                  width="100%" 
-                  height="300" 
-                  frameBorder="0"
-                  style={{border: 0}}
-                  className="rounded-lg"
-                ></iframe>
+              <div className="flex-grow mb-8 flex items-center justify-center">
+                <p className="text-white text-center">Свяжитесь с нами для записи на консультацию</p>
               </div>
               <a 
                 href="https://t.me/tattoo_chaya" 
