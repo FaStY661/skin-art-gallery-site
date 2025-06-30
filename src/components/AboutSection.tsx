@@ -10,8 +10,9 @@ const AboutSection = () => {
         </h2>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-              <img src="images/polina.jpg" width="-1" height="-1"
-              alt="Полина - Тату мастер"
+            <img 
+              src="/img/polina.jpg" 
+              alt="Мастер Полина"
               className="w-80 h-80 rounded-full mx-auto lg:mx-0 mb-8 object-cover border-4 border-black"
             />
           </div>
