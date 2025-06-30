@@ -15,51 +15,45 @@ const ContactSection = () => {
           Контакты и запись
         </h2>
         <div className="grid lg:grid-cols-2 gap-12">
-          <div className="bg-black border border-white p-8">
+          <Card className="bg-black border-white p-8">
             <h3 className="text-2xl font-bold text-white mb-8">Свяжитесь с нами</h3>
-            <div style="display: grid; gap: 1.5rem;">
-              <div style="display: flex; align-items: flex-start;">
-                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">📍</div>
+            <div className="space-y-6">
+              <div className="flex items-start">
+                <MapPin className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Адрес</h4>
-                  <p style="color: #d1d5db;">
+                  <h4 className="text-white font-semibold mb-1">Адрес</h4>
+                  <p className="text-gray-300">
                     ул. Луначарского, д.311<br />
                     Краснодарский край, г.Крымск
                   </p>
                 </div>
               </div>
-              <div style="display: flex; align-items: flex-start;">
-                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">📞</div>
+              <div className="flex items-start">
+                <Phone className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Телефон</h4>
-                  <p style="color: #d1d5db;">+7 (964) 927 26 40</p>
+                  <h4 className="text-white font-semibold mb-1">Телефон</h4>
+                  <p className="text-gray-300">+7 (964) 927 26 40</p>
                 </div>
               </div>
-              <div style="display: flex; align-items: flex-start;">
-                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">✉️</div>
+              <div className="flex items-start">
+                <Send className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Telegram</h4>
-                  <p style="color: #d1d5db;">@tattoo_chaya</p>
+                  <h4 className="text-white font-semibold mb-1">Telegram</h4>
+                  <p className="text-gray-300">@tattoo_chaya</p>
                 </div>
               </div>
             </div>
-          </div>
+          </Card>
           <div className="flex flex-col">
-            <div className="bg-black border border-white p-8 h-full">
-              <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
-              <div className="flex-grow mb-8 flex items-center justify-center">
-                <p className="text-white text-center">Свяжитесь с нами для записи на консультацию</p>
-              </div>
-              <a 
-                href="https://t.me/tattoo_chaya" 
-                target="_blank"
-                style="display: block; width: 100%; background-color: white; color: black; padding: 0.75rem; font-size: 1.125rem; font-weight: 600; text-align: center; border-radius: 0.375rem; text-decoration: none;"
-                onmouseover="this.style.backgroundColor='#e5e7eb'"
-                onmouseout="this.style.backgroundColor='white'"
+            <Card className="bg-black border-white p-8 flex flex-col justify-between h-full">
+              <h3 className="text-2xl font-bold text-white mb-8">Запись на консультацию</h3>
+              <Button 
+                onClick={handleBooking}
+                className="w-full bg-white hover:bg-gray-200 text-black py-3 text-lg font-semibold"
               >
                 Записаться на консультацию
-              </a>
-            </div>
+              </Button>
+            </Card>
           </div>
         </div>
       </div>
