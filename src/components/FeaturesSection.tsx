@@ -7,28 +7,28 @@ const FeaturesSection = () => {
     <section className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16 text-white">
-          Why Choose <span className="text-red-500">Inkwell Studio</span>
+          Почему выбирают <span className="text-red-500">Inkwell Студию</span>
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Card className="bg-black border-red-600 p-6 text-center hover:transform hover:scale-105 transition-all">
             <Star className="w-12 h-12 text-red-500 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">High-Quality Work</h3>
-            <p className="text-gray-400">Premium materials and exceptional attention to detail in every piece</p>
+            <h3 className="text-xl font-semibold text-white mb-3">Высокое качество</h3>
+            <p className="text-gray-400">Премиальные материалы и исключительное внимание к деталям в каждой работе</p>
           </Card>
           <Card className="bg-black border-red-600 p-6 text-center hover:transform hover:scale-105 transition-all">
             <Clock className="w-12 h-12 text-red-500 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">Fast & Efficient</h3>
-            <p className="text-gray-400">Quick turnaround times without compromising on quality</p>
+            <h3 className="text-xl font-semibold text-white mb-3">Быстро и эффективно</h3>
+            <p className="text-gray-400">Короткие сроки выполнения без ущерба для качества</p>
           </Card>
           <Card className="bg-black border-red-600 p-6 text-center hover:transform hover:scale-105 transition-all">
             <Shield className="w-12 h-12 text-red-500 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">Safety First</h3>
-            <p className="text-gray-400">Sterile environment and top-tier hygiene standards</p>
+            <h3 className="text-xl font-semibold text-white mb-3">Безопасность прежде всего</h3>
+            <p className="text-gray-400">Стерильная среда и высочайшие стандарты гигиены</p>
           </Card>
           <Card className="bg-black border-red-600 p-6 text-center hover:transform hover:scale-105 transition-all">
             <Award className="w-12 h-12 text-red-500 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">Award-Winning</h3>
-            <p className="text-gray-400">Recognized artists with years of experience and accolades</p>
+            <h3 className="text-xl font-semibold text-white mb-3">Награды и признание</h3>
+            <p className="text-gray-400">Признанные мастера с многолетним опытом и наградами</p>
           </Card>
         </div>
       </div>
