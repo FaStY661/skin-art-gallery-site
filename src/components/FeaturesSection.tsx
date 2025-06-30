@@ -4,7 +4,7 @@ import { Star, Clock, Shield, Award } from "lucide-react";
 const FeaturesSection = () => {
   return (
     <section className="py-20 bg-black">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 pl-10">
         <h2 className="text-4xl font-bold text-center mb-16 text-white">
           Почему <span className="text-white"> Chaya Tattoo? </span>
         </h2>
