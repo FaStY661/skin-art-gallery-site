@@ -15,7 +15,7 @@ const ContactSection = () => {
           Контакты и запись
         </h2>
         <div className="grid lg:grid-cols-2 gap-12">
-          <Card className="bg-black border-white p-8">
+          <div className="bg-black border border-white p-8">
             <h3 className="text-2xl font-bold text-white mb-8">Свяжитесь с нами</h3>
             <div style="display: grid; gap: 1.5rem;">
               <div style="display: flex; align-items: flex-start;">
@@ -43,9 +43,9 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-          </Card>
+          </div>
           <div className="flex flex-col">
-            <Card className="bg-black border-white p-8 h-full">
+            <div className="bg-black border border-white p-8 h-full">
               <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
               <div className="flex-grow mb-8 flex items-center justify-center">
                 <p className="text-white text-center">Свяжитесь с нами для записи на консультацию</p>
@@ -59,7 +59,7 @@ const ContactSection = () => {
               >
                 Записаться на консультацию
               </a>
-            </Card>
+            </div>
           </div>
         </div>
       </div>
