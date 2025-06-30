@@ -44,13 +44,18 @@ const ContactSection = () => {
               </div>
             </div>
           </Card>
-            </div>
-            <Button 
-              onClick={handleBooking}
-              className="w-full bg-white hover:bg-gray-200 text-black py-3 text-lg font-semibold"
-            >
-              Записаться на консультацию
-            </Button>
+          <div className="flex flex-col">
+            <Card className="bg-black border-white p-8 flex flex-col justify-between h-full">
+              <h3 className="text-2xl font-bold text-white mb-8">Запись на консультацию</h3>
+              <Button 
+                onClick={handleBooking}
+                className="w-full bg-white hover:bg-gray-200 text-black py-3 text-lg font-semibold"
+              >
+                Записаться на консультацию
+              </Button>
+            </Card>
+          </div>
+        </div>
       </div>
     </section>
   );
