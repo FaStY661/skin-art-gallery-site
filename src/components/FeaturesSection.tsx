@@ -8,7 +8,7 @@ const FeaturesSection = () => {
         <h2 className="text-4xl font-bold text-center mb-16 text-white">
           Почему <span className="text-white"> Chaya Tattoo? </span>
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto w-fit">
           <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all flex flex-col items-center justify-center">
             <Star className="w-12 h-12 text-white mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-white mb-3">Высокое качество</h3>
