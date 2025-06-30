@@ -32,7 +32,7 @@ const HeroSection = () => {
             size="lg" 
             variant="outline" 
             onClick={() => scrollToSection('portfolio')}
-            className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
+            className="border-white text-black hover:bg-white hover:text-black px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
           >
             Посмотреть работы
           </Button>
