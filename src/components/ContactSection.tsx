@@ -45,8 +45,17 @@ const ContactSection = () => {
             </div>
           </Card>
           <div className="flex flex-col">
-            <Card className="bg-black border-white p-8 flex flex-col justify-between h-full">
-              <h3 className="text-2xl font-bold text-white mb-8">Запись на консультацию</h3>
+            <Card className="bg-black border-white p-8 h-full">
+              <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
+              <div className="mb-8">
+                <iframe 
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;width=500&amp;height=400&amp;lang=ru_RU" alt="" style="border: 0;" /></a>"
+                  width="100%" 
+                  height="300" 
+                  frameBorder="0"
+                  className="rounded-lg"
+                ></iframe>
+              </div>
               <Button 
                 onClick={handleBooking}
                 className="w-full bg-white hover:bg-gray-200 text-black py-3 text-lg font-semibold"
