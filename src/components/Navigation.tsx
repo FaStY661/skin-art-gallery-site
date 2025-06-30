@@ -10,15 +10,15 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-gray-900 border-b border-red-600 px-6 py-4">
+    <nav className="bg-black border-b border-white px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="text-2xl font-bold text-red-500">
+        <div className="text-2xl font-bold text-white">
           CHAYA TATTOO
         </div>
         <div className="hidden md:flex space-x-8">
           <button 
             onClick={() => scrollToSection('home')}
-            className="text-white hover:text-red-400 transition-colors"
+            className="text-white hover:text-gray-300 transition-colors"
           >
             Главная
           </button>
@@ -43,7 +43,7 @@ const Navigation = () => {
         </div>
         <Button 
           onClick={() => scrollToSection('contact')}
-          className="bg-red-600 hover:bg-red-700 text-white"
+          className="bg-white hover:bg-gray-200 text-black"
         >
           Записаться
         </Button>

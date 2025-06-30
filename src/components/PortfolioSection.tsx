@@ -42,21 +42,21 @@ const PortfolioSection = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-gray-800">
+    <section id="portfolio" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-white">НАШИ</span>{" "}
-            <span className="text-red-500">РАБОТЫ</span>
+            <span className="text-white">РАБОТЫ</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Посмотрите на некоторые из наших лучших работ - каждая татуировка уникальна и создана с особым вниманием к деталям
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {portfolioImages.map((image) => (
-            <Card key={image.id} className="bg-gray-900 border-gray-700 overflow-hidden group hover:border-red-600 transition-colors">
+            <Card key={image.id} className="bg-gray-900 border-gray-600 overflow-hidden group hover:border-white transition-colors">
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">
                   <img
@@ -67,7 +67,7 @@ const PortfolioSection = () => {
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <div className="text-center">
                       <h3 className="text-white text-xl font-semibold mb-2">{image.category}</h3>
-                      <p className="text-red-400">Нажмите для просмотра</p>
+                      <p className="text-gray-300">Нажмите для просмотра</p>
                     </div>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ const PortfolioSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-300 text-lg">
             Хотите увидеть больше работ? Следите за нами в социальных сетях или посетите нашу студию!
           </p>
         </div>
