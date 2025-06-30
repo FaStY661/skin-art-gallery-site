@@ -32,7 +32,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            onClick={() => scrollToSection('about')}
+            onClick={() => scrollToSection('portfolio')}
             className="border-red-600 text-red-500 hover:bg-red-600 hover:text-white px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
           >
             Посмотреть работы
