@@ -6,7 +6,7 @@ const FeaturesSection = () => {
     <section className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16 text-white">
-          Почему выбирают <span className="text-white">Inkwell Студию</span>
+          Почему <span className="text-white"> Chaya Tattoo? </span>
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all">
@@ -23,11 +23,6 @@ const FeaturesSection = () => {
             <Shield className="w-12 h-12 text-white mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-white mb-3">Безопасность прежде всего</h3>
             <p className="text-white">Стерильная среда и высочайшие стандарты гигиены</p>
-          </Card>
-          <Card className="bg-black border-white p-6 text-center hover:transform hover:scale-105 transition-all">
-            <Award className="w-12 h-12 text-white mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-3">Награды и признание</h3>
-            <p className="text-white">Признанные мастера с многолетним опытом и наградами</p>
           </Card>
         </div>
       </div>
