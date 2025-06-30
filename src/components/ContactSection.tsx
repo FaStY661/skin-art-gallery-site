@@ -17,29 +17,29 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           <Card className="bg-black border-white p-8">
             <h3 className="text-2xl font-bold text-white mb-8">Свяжитесь с нами</h3>
-            <div className="space-y-6">
-              <div className="flex items-start">
-                <MapPin className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
+            <div style="display: grid; gap: 1.5rem;">
+              <div style="display: flex; align-items: flex-start;">
+                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">📍</div>
                 <div>
-                  <h4 className="text-white font-semibold mb-1">Адрес</h4>
-                  <p className="text-gray-300">
+                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Адрес</h4>
+                  <p style="color: #d1d5db;">
                     ул. Луначарского, д.311<br />
                     Краснодарский край, г.Крымск
                   </p>
                 </div>
               </div>
-              <div className="flex items-start">
-                <Phone className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
+              <div style="display: flex; align-items: flex-start;">
+                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">📞</div>
                 <div>
-                  <h4 className="text-white font-semibold mb-1">Телефон</h4>
-                  <p className="text-gray-300">+7 (964) 927 26 40</p>
+                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Телефон</h4>
+                  <p style="color: #d1d5db;">+7 (964) 927 26 40</p>
                 </div>
               </div>
-              <div className="flex items-start">
-                <Send className="w-6 h-6 text-white mr-4 mt-1 flex-shrink-0" />
+              <div style="display: flex; align-items: flex-start;">
+                <div style="width: 1.5rem; height: 1.5rem; color: white; margin-right: 1rem; margin-top: 0.25rem; flex-shrink: 0;">✉️</div>
                 <div>
-                  <h4 className="text-white font-semibold mb-1">Telegram</h4>
-                  <p className="text-gray-300">@tattoo_chaya</p>
+                  <h4 style="color: white; font-weight: 600; margin-bottom: 0.25rem;">Telegram</h4>
+                  <p style="color: #d1d5db;">@tattoo_chaya</p>
                 </div>
               </div>
             </div>
@@ -47,9 +47,9 @@ const ContactSection = () => {
           <div className="flex flex-col">
             <Card className="bg-black border-white p-8 h-full">
               <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
-              <div className="mb-8">
+              <div className="flex-grow mb-8">
                 <iframe 
-                  src="<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>"
+                  src="https://yandex.ru/maps/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;source=constructorStatic"
                   width="100%" 
                   height="300" 
                   frameBorder="0"
@@ -57,12 +57,15 @@ const ContactSection = () => {
                   className="rounded-lg"
                 ></iframe>
               </div>
-              <Button 
-                onClick={handleBooking}
-                className="w-full bg-white hover:bg-gray-200 text-black py-3 text-lg font-semibold"
+              <a 
+                href="https://t.me/tattoo_chaya" 
+                target="_blank"
+                style="display: block; width: 100%; background-color: white; color: black; padding: 0.75rem; font-size: 1.125rem; font-weight: 600; text-align: center; border-radius: 0.375rem; text-decoration: none;"
+                onmouseover="this.style.backgroundColor='#e5e7eb'"
+                onmouseout="this.style.backgroundColor='white'"
               >
                 Записаться на консультацию
-              </Button>
+              </a>
             </Card>
           </div>
         </div>
