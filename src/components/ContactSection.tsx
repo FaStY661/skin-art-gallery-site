@@ -51,8 +51,6 @@ const ContactSection = () => {
             >
               Записаться на консультацию
             </Button>
-          </Card>
-        </div>
       </div>
     </section>
   );
