@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <img 
-              src="img/photo_2025-06-09_17-13-38.jpg"
+              src="https://cdn.corenexis.com/view/?img=d/ju30/zCsWnU.jpg"
               alt="Полина - Тату мастер"
               className="w-80 h-80 rounded-full mx-auto lg:mx-0 mb-8 object-cover border-4 border-black"
             />
