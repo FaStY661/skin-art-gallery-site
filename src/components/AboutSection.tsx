@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <img 
-              src="/img/polina.jpg" 
+              src="polina.jpg"
               alt="Мастер Полина"
               className="w-80 h-80 rounded-full mx-auto lg:mx-0 mb-8 object-cover border-4 border-black"
             />
