@@ -5,32 +5,27 @@ const PortfolioSection = () => {
   const portfolioImages = [
     {
       id: 1,
-      <img src="img/photo_2025-04-22_20-20-22.jpg" alt="Фото"
-      alt: "Тату работа 1",
+      <img src="img/photo_2025-04-22_20-20-22.jpg" alt="Фото">
     },
     {
       id: 2,
-      <img src="img/photo_2025-04-27_19-50-08.jpg" alt="Фото"
-      alt: "Тату работа 2", 
+      <img src="img/photo_2025-04-27_19-50-08.jpg" alt="Фото">
     },
     {
       id: 3,
-      <img src="img/photo_2025-05-08_19-21-20.jpg" alt="Фото"
-      alt: "Тату работа 3",
+      <img src="img/photo_2025-05-08_19-21-20.jpg" alt="Фото">
     },
     {
       id: 4,
-      <img src="img/photo_2025-06-12_22-59-20.jpg" alt="Фото"
-      alt: "Тату работа 4",
+      <img src="img/photo_2025-06-12_22-59-20.jpg" alt="Фото">
     },
     {
       id: 5,
-      <img src="img/photo_2025-06-13_18-01-42.jpg" alt="Фото"
-      alt: "Тату работа 5",
+      <img src="img/photo_2025-06-13_18-01-42.jpg" alt="Фото">
     },
     {
       id: 6,
-      <img src="img/photo_2025-06-27_19-28-33.jpg" alt="Фото"
+      <img src="img/photo_2025-06-27_19-28-33.jpg" alt="Фото">
       alt: "Тату работа 6",
     }
   ];
