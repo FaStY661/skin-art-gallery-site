@@ -6,32 +6,26 @@ const PortfolioSection = () => {
     {
       id: 1,
       src: "https://i.pinimg.com/736x/71/a4/67/71a467f8a79a2211e3d270aacecb873a.jpg"
-      alt="Фото"
     },
     {
       id: 2,
       src: "https://i.pinimg.com/736x/1c/9c/06/1c9c06d871abd6c586d1779cb1209f56.jpg",
-      alt: "Фото"
     },
     {
       id: 3,
       src: "https://i.pinimg.com/736x/f0/09/f5/f009f51661c25f5c5893f06f7f97834b.jpg",
-      alt: "Фото"
     },
     {
       id: 4,
       src: "https://i.pinimg.com/originals/3f/a3/c1/3fa3c109b72c66fe14dcf850b5227e95.jpg",
-      alt: "Фото"
     },
     {
       id: 5,
       src: "https://i.pinimg.com/736x/6d/91/a5/6d91a577111ea5b23ac2481d56ba1e15.jpg",
-      alt: "Фото"
     },
     {
       id: 6,
       src: "https://i.pinimg.com/736x/e6/35/f5/e635f5d9124394846042921567b51203.jpg",
-      alt: "Фото"
     }
   ];
 
