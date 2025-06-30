@@ -3,9 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const PortfolioSection = () => {
   const portfolioImages = [
-  {
+    {
       id: 1,
-       src: "https://i.pinimg.com/736x/71/a4/67/71a467f8a79a2211e3d270aacecb873a.jpg" alt="Фото"
+      src: "https://i.pinimg.com/736x/71/a4/67/71a467f8a79a2211e3d270aacecb873a.jpg"
+      alt="Фото"
     },
     {
       id: 2,
