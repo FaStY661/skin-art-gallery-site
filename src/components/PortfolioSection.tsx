@@ -5,32 +5,32 @@ const PortfolioSection = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "photo_2025-04-22_20-20-22.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 1",
     },
     {
       id: 2,
-      src: "photo_2025-06-28_16-42-52.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 2", 
     },
     {
       id: 3,
-      src: "photo_2025-06-27_19-28-33.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 3",
     },
     {
       id: 4,
-      src: "photo_2025-06-13_18-01-42.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 4",
     },
     {
       id: 5,
-      src: "photo_2025-06-12_22-59-20.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 5",
     },
     {
       id: 6,
-      src: "photo_2025-05-08_19-21-20.jpg",
+      src: "https://cdn.corenexis.com/view/?img=d/ju30/9MYI8F.jpg",
       alt: "Тату работа 6",
     }
   ];
