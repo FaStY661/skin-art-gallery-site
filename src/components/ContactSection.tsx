@@ -49,10 +49,11 @@ const ContactSection = () => {
               <h3 className="text-2xl font-bold text-white mb-8 text-center">Запись на консультацию</h3>
               <div className="mb-8">
                 <iframe 
-                  src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;width=500&amp;height=400&amp;lang=ru_RU" alt="" style="border: 0;" /></a>"
+                  src="<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afddf12770b23034d8e90e8de2ff7d88f3880b49069e958e451de77e89b2e1ff1&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>"
                   width="100%" 
                   height="300" 
                   frameBorder="0"
+                  style={{border: 0}}
                   className="rounded-lg"
                 ></iframe>
               </div>
