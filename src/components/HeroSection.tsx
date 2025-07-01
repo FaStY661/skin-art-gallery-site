@@ -29,6 +29,5 @@
       </div>
     </section>
   );
-};
 
 export default HeroSection;
