@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '.ui/button'; // Убедитесь, что путь к компоненту Button правильный
+import Button from '../ui/button'; // Убедитесь, что путь к компоненту Button правильный
 
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
