@@ -1,15 +1,4 @@
-import React from 'react'; // Убедитесь, что вы импортировали React
-import Button from './ui/Button'; // Убедитесь, что компонент Button импортирован
-
-const HeroSection = () => {
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  return (
+return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-100">
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 text-center px-6">
