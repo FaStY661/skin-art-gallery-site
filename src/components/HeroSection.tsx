@@ -1,15 +1,5 @@
-import { Button } from "@/components/ui/button";
-
-const HeroSection = () => {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-white">
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 text-center px-6">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
